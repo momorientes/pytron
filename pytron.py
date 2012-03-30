@@ -13,11 +13,10 @@ class pytron():
     def get_quote(self, number):
         #note: this only works if you end your quotes file with ;; !
         if number <= (len(quotes_list)-2):
-            print quotes_list[number]
+            return quotes_list[number]
         else:
             raise IndexError
-        print quotes_list[number]
 
     def random_quote(self):
         rand_number = random.randrange(0, len(quotes_list))
-        print quotes_list[rand_number]
+        return quotes_list[rand_number]
