@@ -1,0 +1,9 @@
+pytron provides a simple, eventough useless way to access your favorite tron quotes.
+I created this because the name pytron came up to my mind and I was in mood to code this little snippet.
+Enjoy it, use it in a project or in your MOTD or do whatever you want.
+
+You can add your own quotes by editing the quotes file, note that quotes aren't seperated by newlines but by two semicolons (;;)
+If you add any quotes I'd be happy to merge them so everyone can access them.
+
+Enjoy
+
